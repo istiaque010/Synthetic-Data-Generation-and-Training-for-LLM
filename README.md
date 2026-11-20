@@ -49,17 +49,42 @@ its verdict is in `INSTRUCTIONS.md`, Phases 13–14.
    help about twice as much. Synthetic-only training is worse than repeating 5,000 real stories, because teacher
    stories differ from real ones. About half of that gap comes from encoding debris in real data that the filtered
    synthetic data never contains.
+
+   ![Validation curves](results/figures/fig5_validation_curves.png)
+
+   *Validation loss on real stories during training. No run overfits within 6M tokens; the order (new real <
+   50% synthetic < real only < synthetic only) appears early and stays.*
 2. **Variety beats volume of the same thing.** More distinct teacher stories helped clearly. Lower temperature made
    the data less varied (distinct word pairs 0.163 vs 0.218) and made its student the most repetitive.
+
+   ![Data diversity](results/figures/fig2_diversity.png)
+
+   *Left: low temperature makes the teacher's stories much less varied. Right: without prompt diversity, 69% of
+   characters get one of five names.*
+
+   ![Ablations](results/figures/fig6_ablations.png)
+
+   *Only one candidate per prompt (fewer distinct stories, each repeated more) counts as worse by the rule: outside the
+   grey range of the main run's three seeds.*
 3. **A small teacher at temperature 1.0 does not repeat itself.** Near-duplicate removal (MinHash, Jaccard ≥ 0.5) found
    0 duplicates in 45,000 stories, and contamination with the test set was 0. Real stories share more 13-word phrases
    with the test set (24%) than synthetic ones do (13%).
 4. **Calibrate filters on real data.** Every threshold rejects about 1% of real stories, so the filter removes what is
    *unusual*, not what we happen to dislike. The extra judge model removed 932 more stories without a measurable gain.
+
+   ![Filter funnel](results/figures/fig1_filter_funnel.png)
+
+   *The filter kept 91–98% of the teacher's stories; most rejections are stories cut off at the token limit, and
+   low temperature adds repetitive ones.*
 5. **Check seeds, not only test examples.** The story-level interval said "filtering helps" with high confidence.
    Looking at the seeds showed the unfiltered mixture varies so much that only 5 of 9 seed pairings agree.
 6. **Fluency scores can mislead.** The independent scorer (SmolLM2-135M) preferred synthetic-only and low-temperature
    students, which have the worst or nearly worst test loss and the dullest text.
+
+   ![Generations](results/figures/fig7_generations.png)
+
+   *Generation measures per student. The scorer (left) ranks synthetic-only as most fluent, the opposite of its test
+   loss.*
 7. **At 5.3M parameters every student loses the plot.** A blind review (by an AI annotator, not a human) rated 90 of 100
    student continuations largely incoherent, against 0 of 20 real ones. Gains of 0.04 nats/token are real but
    invisible to a reader. No student copied a training story.
