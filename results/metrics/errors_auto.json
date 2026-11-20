@@ -1,0 +1,426 @@
+{
+  "real continuations": {
+    "moral_tag": 0.03,
+    "name_drift": 0.0,
+    "named_prompts": 52,
+    "top5_names": 0.7142857142857143,
+    "top_names": [
+      [
+        "Lily",
+        4
+      ],
+      [
+        "Tim",
+        3
+      ],
+      [
+        "Tom",
+        1
+      ],
+      [
+        "Sarah",
+        1
+      ],
+      [
+        "Liza",
+        1
+      ]
+    ]
+  },
+  "real_only": {
+    "moral_tag": 0.02111111111111111,
+    "name_drift": 0.4294871794871795,
+    "top5_names": 0.7236375855327468,
+    "repetitive": 0.014444444444444446,
+    "unfinished": 0.15222222222222223,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        9
+      ],
+      [
+        "Max",
+        4
+      ],
+      [
+        "Timmy",
+        4
+      ],
+      [
+        "Tim",
+        2
+      ],
+      [
+        "Mittens",
+        2
+      ]
+    ]
+  },
+  "real_fresh": {
+    "moral_tag": 0.01,
+    "name_drift": 0.4679487179487179,
+    "top5_names": 0.6812260536398466,
+    "repetitive": 0.013333333333333334,
+    "unfinished": 0.13333333333333333,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        9
+      ],
+      [
+        "Timmy",
+        4
+      ],
+      [
+        "Benny",
+        2
+      ],
+      [
+        "Tim",
+        2
+      ],
+      [
+        "Jane",
+        2
+      ]
+    ]
+  },
+  "syn_only": {
+    "moral_tag": 0.03666666666666666,
+    "name_drift": 0.38461538461538464,
+    "top5_names": 0.7192340264984125,
+    "repetitive": 0.013333333333333334,
+    "unfinished": 0.08888888888888886,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        11
+      ],
+      [
+        "Sam",
+        8
+      ],
+      [
+        "Tim",
+        7
+      ],
+      [
+        "Max",
+        7
+      ],
+      [
+        "Tom",
+        4
+      ]
+    ]
+  },
+  "mix50_raw": {
+    "moral_tag": 0.02777777777777778,
+    "name_drift": 0.4166666666666667,
+    "top5_names": 0.7020583336372811,
+    "repetitive": 0.01888888888888889,
+    "unfinished": 0.18555555555555556,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        15
+      ],
+      [
+        "Tim",
+        6
+      ],
+      [
+        "Timmy",
+        5
+      ],
+      [
+        "Spot",
+        2
+      ],
+      [
+        "Sam",
+        2
+      ]
+    ]
+  },
+  "mix25_filt": {
+    "moral_tag": 0.031111111111111114,
+    "name_drift": 0.4038461538461539,
+    "top5_names": 0.7128915146156526,
+    "repetitive": 0.014444444444444446,
+    "unfinished": 0.16000000000000003,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Tim",
+        8
+      ],
+      [
+        "Lily",
+        6
+      ],
+      [
+        "Max",
+        6
+      ],
+      [
+        "Lucy",
+        3
+      ],
+      [
+        "Benny",
+        2
+      ]
+    ]
+  },
+  "mix50_filt": {
+    "moral_tag": 0.02666666666666667,
+    "name_drift": 0.4230769230769231,
+    "top5_names": 0.7041041041041041,
+    "repetitive": 0.01888888888888889,
+    "unfinished": 0.15888888888888889,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        12
+      ],
+      [
+        "Sam",
+        4
+      ],
+      [
+        "Tom",
+        4
+      ],
+      [
+        "Tim",
+        4
+      ],
+      [
+        "Max",
+        4
+      ]
+    ]
+  },
+  "mix75_filt": {
+    "moral_tag": 0.03666666666666667,
+    "name_drift": 0.3717948717948718,
+    "top5_names": 0.7331349206349206,
+    "repetitive": 0.014444444444444446,
+    "unfinished": 0.08555555555555557,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        11
+      ],
+      [
+        "Timmy",
+        7
+      ],
+      [
+        "Tim",
+        6
+      ],
+      [
+        "Tom",
+        4
+      ],
+      [
+        "Sue",
+        3
+      ]
+    ]
+  },
+  "mix50_lowT": {
+    "moral_tag": 0.03333333333333333,
+    "name_drift": 0.28846153846153844,
+    "top5_names": 0.8,
+    "repetitive": 0.03333333333333333,
+    "unfinished": 0.13666666666666671,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        6
+      ],
+      [
+        "Tim",
+        3
+      ],
+      [
+        "Sue",
+        3
+      ],
+      [
+        "Max",
+        2
+      ],
+      [
+        "Emma",
+        2
+      ]
+    ]
+  },
+  "mix50_plain": {
+    "moral_tag": 0.02,
+    "name_drift": 0.4230769230769231,
+    "top5_names": 0.6666666666666666,
+    "repetitive": 0.013333333333333334,
+    "unfinished": 0.1333333333333333,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        10
+      ],
+      [
+        "Mittens",
+        3
+      ],
+      [
+        "Max",
+        3
+      ],
+      [
+        "Lucy",
+        2
+      ],
+      [
+        "Sam",
+        2
+      ]
+    ]
+  },
+  "mix50_cand1": {
+    "moral_tag": 0.016666666666666666,
+    "name_drift": 0.46153846153846156,
+    "top5_names": 0.6842105263157895,
+    "repetitive": 0.0033333333333333335,
+    "unfinished": 0.08999999999999997,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        12
+      ],
+      [
+        "Max",
+        6
+      ],
+      [
+        "Sam",
+        3
+      ],
+      [
+        "Mittens",
+        3
+      ],
+      [
+        "Tim",
+        2
+      ]
+    ]
+  },
+  "mix50_judge": {
+    "moral_tag": 0.03,
+    "name_drift": 0.38461538461538464,
+    "top5_names": 0.6944444444444444,
+    "repetitive": 0.02,
+    "unfinished": 0.11333333333333329,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        9
+      ],
+      [
+        "Max",
+        7
+      ],
+      [
+        "Timmy",
+        3
+      ],
+      [
+        "Sam",
+        3
+      ],
+      [
+        "Bob",
+        3
+      ]
+    ]
+  },
+  "real_only_small": {
+    "moral_tag": 0.02,
+    "name_drift": 0.5769230769230769,
+    "top5_names": 0.8536585365853658,
+    "repetitive": 0.01,
+    "unfinished": 0.17000000000000004,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        25
+      ],
+      [
+        "Timmy",
+        7
+      ],
+      [
+        "Lucy",
+        1
+      ],
+      [
+        "Sue",
+        1
+      ],
+      [
+        "Max",
+        1
+      ]
+    ]
+  },
+  "mix50_filt_small": {
+    "moral_tag": 0.03,
+    "name_drift": 0.5,
+    "top5_names": 0.8163265306122449,
+    "repetitive": 0.0033333333333333335,
+    "unfinished": 0.06666666666666665,
+    "copied": 0.0,
+    "top_names_seed0": [
+      [
+        "Lily",
+        21
+      ],
+      [
+        "Bob",
+        6
+      ],
+      [
+        "Timmy",
+        5
+      ],
+      [
+        "Sue",
+        4
+      ],
+      [
+        "Sam",
+        4
+      ]
+    ]
+  },
+  "data:real_seeds": {
+    "moral_tag": 0.0358
+  },
+  "data:main_filt": {
+    "moral_tag": 0.053988257196047544
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "mixture": "mix50_raw",
+  "seed": 2,
+  "budget_tokens": 6000000,
+  "real_share": 0.5,
+  "real": "real",
+  "syn": "main_raw",
+  "sources": {
+    "real:real": {
+      "tokens": 3000000,
+      "stories": 15291,
+      "unique_stories": 5000,
+      "pool_stories": 5000,
+      "pool_tokens": 980921,
+      "epochs": 3.058
+    },
+    "syn:main_raw": {
+      "tokens": 3000001,
+      "stories": 16171,
+      "unique_stories": 14996,
+      "pool_stories": 14996,
+      "pool_tokens": 2780493,
+      "epochs": 1.079
+    }
+  },
+  "file": "mixtures\\mix50_raw_s2.bin",
+  "real_token_share_actual": 0.5
+}

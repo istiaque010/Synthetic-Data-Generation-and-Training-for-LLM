@@ -1,0 +1,17 @@
+# Training mixtures (Phase 11). real_share = share of the token budget from real stories; the rest comes from `syn`.
+# "real" = the 5,000 real seed stories (the scarce real data); "fresh" = 40,000 other real stories (reference only).
+# Synthetic pools are data/filtered/<pool>_<variant>.jsonl (see synth/filter_quality.py). mixNN = NN% synthetic tokens.
+mixtures:
+  real_only:     {real_share: 1.0,  real: real}
+  real_fresh:    {real_share: 1.0,  real: fresh}               # reference: the same budget of NEW real text
+  syn_only:      {real_share: 0.0,  syn: main_filt}
+  mix50_raw:     {real_share: 0.5,  real: real, syn: main_raw}  # unfiltered synthetic
+  mix25_filt:    {real_share: 0.75, real: real, syn: main_filt}
+  mix50_filt:    {real_share: 0.5,  real: real, syn: main_filt}
+  mix75_filt:    {real_share: 0.25, real: real, syn: main_filt}
+  # ablations (one change each against mix50_filt)
+  mix50_lowT:    {real_share: 0.5,  real: real, syn: lowT_filt}     # teacher temperature 0.6 instead of 1.0
+  mix50_plain:   {real_share: 0.5,  real: real, syn: plain_filt}    # no prompt diversity ("Once upon a time,")
+  mix50_cand1:   {real_share: 0.5,  real: real, syn: main_cand1}    # 1 candidate per prompt instead of 3
+  mix50_nodedup: {real_share: 0.5,  real: real, syn: main_nodedup}  # deduplication off
+  mix50_judge:   {real_share: 0.5,  real: real, syn: main_judge}    # + model-based judge filter

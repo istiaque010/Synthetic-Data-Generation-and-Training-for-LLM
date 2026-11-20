@@ -1,0 +1,1418 @@
+{
+ "annotator": "AI (Claude), blind to system; not human",
+ "rubric": "coherence 0-2 (2 sensible/consistent, 1 some slips, 0 incoherent); relevance 0-2 (2 continues prompt, 1 loose, 0 ignores); complete 0/1 natural ending; appropriate 0/1 for young children; issues from fixed vocabulary; note <=15 words",
+ "labels": [
+  {
+   "n": 0,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Dad and daughter vanish; endless 'little girl' confusion, events don't connect"
+  },
+  {
+   "n": 1,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Names shift Jane/Sarah/Jack/Molly; events and dialogue nonsensical"
+  },
+  {
+   "n": 2,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "repetition"
+   ],
+   "note": "Noise becomes pink object she bites; girl thanks girl"
+  },
+  {
+   "n": 3,
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "grammar"
+   ],
+   "note": "Unclear 'new one'; garden ignored; garbled final sentence"
+  },
+  {
+   "n": 4,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Kitty dropped; bunny then bird take over, events disconnected"
+  },
+  {
+   "n": 5,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition",
+    "abrupt_end"
+   ],
+   "note": "Sam appears, treasure/bird jumble; cut off mid-sentence"
+  },
+  {
+   "n": 6,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "repetition",
+    "abrupt_end"
+   ],
+   "note": "Mine has hair; toy car jumble; ends without resolution"
+  },
+  {
+   "n": 7,
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "grammar",
+    "abrupt_end"
+   ],
+   "note": "'He was a special place'; ends on fragment sentence"
+  },
+  {
+   "n": 8,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "character_switch"
+   ],
+   "note": "Duck never appears; frog, Lily, Max instead"
+  },
+  {
+   "n": 9,
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Thin plot; 'went inside to the trees'; foolishness not shown"
+  },
+  {
+   "n": 10,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "character_switch"
+   ],
+   "note": "Missile ignored; ball, bee, bird, cat jumble"
+  },
+  {
+   "n": 11,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 12,
+   "coherence": 1,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "logic_error"
+   ],
+   "note": "Gloom ignored; boy gives boy bandage, key/toy confusion"
+  },
+  {
+   "n": 13,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 14,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "character_switch"
+   ],
+   "note": "River ignored; old man, bird, Sam, Tom, bunny shuffle"
+  },
+  {
+   "n": 15,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Mine ignored; Tim/Ben names shift, nonsensical dialogue"
+  },
+  {
+   "n": 16,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "contradiction"
+   ],
+   "note": "Missile ignored; dog talks to itself, Lily appears"
+  },
+  {
+   "n": 17,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Duck replaced by fish and talking boat; nonsensical"
+  },
+  {
+   "n": 18,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch"
+   ],
+   "note": "Deafness ignored; boy says he's a dog; confusing roles"
+  },
+  {
+   "n": 19,
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Pan carried to stove, cookies 'ready' after removal; minor slips"
+  },
+  {
+   "n": 20,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "contradiction"
+   ],
+   "note": "Duck/Spot/frog/Fin confusion; 'Spot and Spot were best friends'"
+  },
+  {
+   "n": 21,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 22,
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "contradiction"
+   ],
+   "note": "Mom says 'Yes, mom'; noise dropped; girl plays with girl"
+  },
+  {
+   "n": 23,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 24,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Characters swap constantly; dialogue nonsensical"
+  },
+  {
+   "n": 25,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition",
+    "logic_error"
+   ],
+   "note": "Endless 'mouse' repetition; actions make no sense"
+  },
+  {
+   "n": 26,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Blouse becomes doll/dress; mom's lines incoherent"
+  },
+  {
+   "n": 27,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch"
+   ],
+   "note": "Sunset green; bird thanks girl for nothing"
+  },
+  {
+   "n": 28,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error",
+    "abrupt_end"
+   ],
+   "note": "Jill/Jack/Jane/Daisy/Sarah/Sally/Lucy; odd unresolved ending"
+  },
+  {
+   "n": 29,
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "River plays in a tree; vague talking water and boat"
+  },
+  {
+   "n": 30,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Tim/Tom swap; boy reads pictures; beach events garbled"
+  },
+  {
+   "n": 31,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Jill becomes Lucy; chocolate folded, coin appears"
+  },
+  {
+   "n": 32,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error",
+    "grammar"
+   ],
+   "note": "He/Lily confusion; random object exclamations; 'thanked the end'"
+  },
+  {
+   "n": 33,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Dan/Tom/Lily/Jill swap; stick is yummy; nonsense"
+  },
+  {
+   "n": 34,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Tommy becomes Timmy; smartness ignored; ball in sky"
+  },
+  {
+   "n": 35,
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "contradiction"
+   ],
+   "note": "Pete called 'she'; box/rock actions make little sense"
+  },
+  {
+   "n": 36,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition",
+    "abrupt_end"
+   ],
+   "note": "Ben/Tom swap, repeated dog/park; cut off mid-sentence"
+  },
+  {
+   "n": 37,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 38,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "character_switch"
+   ],
+   "note": "Yacht becomes man, bear, rock, monster"
+  },
+  {
+   "n": 39,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch"
+   ],
+   "note": "Baby, family, Jill jumble; kids swimming while walking"
+  },
+  {
+   "n": 40,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "logic_error"
+   ],
+   "note": "Mine ignored; two birds and Buddy confusion"
+  },
+  {
+   "n": 41,
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "repetition"
+   ],
+   "note": "Duck sad yet having fun; 'duck and the duck'"
+  },
+  {
+   "n": 42,
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Camera enforces rules on suffering people, then 'helps' them; muddled"
+  },
+  {
+   "n": 43,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Noise is Amy; tree in tree; Lila and Tom appear"
+  },
+  {
+   "n": 44,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "logic_error"
+   ],
+   "note": "River dropped for Timmy and lion; no resolution logic"
+  },
+  {
+   "n": 45,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Kitty dropped; bunny, squirrel, storm disconnected"
+  },
+  {
+   "n": 46,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "grammar"
+   ],
+   "note": "Deafness ignored; unclear 'it'; boy thanks boy"
+  },
+  {
+   "n": 47,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Kitten becomes bunny; endless 'bunny' repetition"
+  },
+  {
+   "n": 48,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Tommy/John/she swap; soup in hole; incoherent events"
+  },
+  {
+   "n": 49,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 50,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "contradiction"
+   ],
+   "note": "Dad absent; Lily/Timmy/Max confusion; self-thanking dialogue"
+  },
+  {
+   "n": 51,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Kitten replaced by dog; 'dog and the dog'"
+  },
+  {
+   "n": 52,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "contradiction"
+   ],
+   "note": "Tom/Tim/Lily confusion; happy/unhappy flips"
+  },
+  {
+   "n": 53,
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Scared premise dropped; dialogue inconsistent but followable"
+  },
+  {
+   "n": 54,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Kitten replaced by boy, puppy; events nonsensical"
+  },
+  {
+   "n": 55,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Girl becomes boy; mommy's speech nonsensical"
+  },
+  {
+   "n": 56,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition",
+    "logic_error"
+   ],
+   "note": "'The race' treated as character; repetitive and senseless"
+  },
+  {
+   "n": 57,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Kitten to bunny, Max, Lily, butterfly; 'Max and Max'"
+  },
+  {
+   "n": 58,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "John/Jake/Jack swap; car takes car"
+  },
+  {
+   "n": 59,
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Dog speaks for mom; Ella and bird appear randomly"
+  },
+  {
+   "n": 60,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "repetition"
+   ],
+   "note": "Yacht ignored; endless truck repetition"
+  },
+  {
+   "n": 61,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Jill becomes Sally; girl barks"
+  },
+  {
+   "n": 62,
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "contradiction",
+    "abrupt_end"
+   ],
+   "note": "Pete asks box for key; contradictory dialogue; no resolution"
+  },
+  {
+   "n": 63,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Daughter becomes boy and baby; nonsensical events"
+  },
+  {
+   "n": 64,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition",
+    "logic_error"
+   ],
+   "note": "Mine ignored; talking balls and dogs, repetitive"
+  },
+  {
+   "n": 65,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Kitty dropped; bunny thanks bunny"
+  },
+  {
+   "n": 66,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Hole in the air; friends go to sky; random"
+  },
+  {
+   "n": 67,
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Sauce returns to Bobby yet mom 'happy'; muddled payoff"
+  },
+  {
+   "n": 68,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition",
+    "logic_error"
+   ],
+   "note": "Bird repeated; bird thanks bird; missile dropped"
+  },
+  {
+   "n": 69,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "River dropped for bunny; 'bunny and the bunny'"
+  },
+  {
+   "n": 70,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine; odd knife play, deafness unused"
+  },
+  {
+   "n": 71,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction"
+   ],
+   "note": "Golden bird has brown feathers; otherwise fine"
+  },
+  {
+   "n": 72,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Explorer replaced by daughter; dialogue contradictory"
+  },
+  {
+   "n": 73,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "contradiction"
+   ],
+   "note": "Missile ignored; Bob greets Bob, contradictory lines"
+  },
+  {
+   "n": 74,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "logic_error"
+   ],
+   "note": "Player is cold thing; girl story unrelated"
+  },
+  {
+   "n": 75,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Explorer becomes Max talking to himself"
+  },
+  {
+   "n": 76,
+   "coherence": 1,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt"
+   ],
+   "note": "Yacht becomes girl Lily; drawing story unrelated"
+  },
+  {
+   "n": 77,
+   "coherence": 1,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "repetition"
+   ],
+   "note": "Yacht ignored; girl helps girl repetitively"
+  },
+  {
+   "n": 78,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Kitty dropped; bunny and bird confusion"
+  },
+  {
+   "n": 79,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "grammar"
+   ],
+   "note": "'had Trip the ball' typo; otherwise fine"
+  },
+  {
+   "n": 80,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 81,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Pete becomes Dave/Peter; noise is a building"
+  },
+  {
+   "n": 82,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 0,
+   "issues": [
+    "none"
+   ],
+   "note": "Explorer eaten whole by crocodile; too dark for young children"
+  },
+  {
+   "n": 83,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "abrupt_end"
+   ],
+   "note": "Player is a box; girl/bird/puppy jumble; cut off"
+  },
+  {
+   "n": 84,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Bird repetition; Tom appears; garden dropped"
+  },
+  {
+   "n": 85,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "grammar"
+   ],
+   "note": "Buy money, orange butter, apple in air; nonsense"
+  },
+  {
+   "n": 86,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 0,
+   "issues": [
+    "none"
+   ],
+   "note": "Child dies from pin prick and is buried; unsuitable"
+  },
+  {
+   "n": 87,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Noise is pink 'world'; girl answers herself"
+  },
+  {
+   "n": 88,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch",
+    "abrupt_end"
+   ],
+   "note": "Boy and bear roles confused; cut off mid-sentence"
+  },
+  {
+   "n": 89,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "contradiction"
+   ],
+   "note": "Box and car actions senseless; thanks absent boy"
+  },
+  {
+   "n": 90,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 91,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  },
+  {
+   "n": 92,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "character_switch",
+    "abrupt_end"
+   ],
+   "note": "Yacht ignored; boy/man confusion; cut off mid-sentence"
+  },
+  {
+   "n": 93,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Missile becomes weather jumble; sun flies, clouds sing"
+  },
+  {
+   "n": 94,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch"
+   ],
+   "note": "Kitten has dress, eats kids; girl appears"
+  },
+  {
+   "n": 95,
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Cheese explodes when bitten; odd but followable"
+  },
+  {
+   "n": 96,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "grammar"
+   ],
+   "note": "Bull called 'she', Pete roars; otherwise coherent"
+  },
+  {
+   "n": 97,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch"
+   ],
+   "note": "Tommy turns into fish story; jungle, pool, lake jumble"
+  },
+  {
+   "n": 98,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Girl calls bird 'little boy'; endless bird repetition"
+  },
+  {
+   "n": 99,
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Fear never addressed; thin and vague"
+  },
+  {
+   "n": 100,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "character_switch"
+   ],
+   "note": "Explorer ignored; Sam bird, Tom, fish jumble"
+  },
+  {
+   "n": 101,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "repetition"
+   ],
+   "note": "Gloom ignored; boy thanks boy, sailor appears"
+  },
+  {
+   "n": 102,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Duck becomes boy; Max/Tim/Spot/Sam shuffle"
+  },
+  {
+   "n": 103,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "Tommy's smartness ignored; Lily/Tom; ball/car repetition"
+  },
+  {
+   "n": 104,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "repetition"
+   ],
+   "note": "Gloom ignored; flower repetition, nonsense lines"
+  },
+  {
+   "n": 105,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Kitty dropped; bunny Sam, lion, duck jumble"
+  },
+  {
+   "n": 106,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Toy fits/too big; store appears; nonsense ending"
+  },
+  {
+   "n": 107,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "off_prompt"
+   ],
+   "note": "Mine ignored; Lily/Emma/Sue/bird name chaos"
+  },
+  {
+   "n": 108,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "contradiction"
+   ],
+   "note": "Pete becomes Dave/Mary; mom's dialogue contradictory"
+  },
+  {
+   "n": 109,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "character_switch"
+   ],
+   "note": "Water put in sky; monster and boy appear unexplained"
+  },
+  {
+   "n": 110,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "abrupt_end"
+   ],
+   "note": "Ben becomes Tommy; monster; cut off mid-sentence"
+  },
+  {
+   "n": 111,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Girl's role lost; Timmy and boy confusion"
+  },
+  {
+   "n": 112,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "abrupt_end"
+   ],
+   "note": "Tommy becomes John; very short, no ending"
+  },
+  {
+   "n": 113,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "repetition"
+   ],
+   "note": "Explorer ignored; 'bear and the bear'"
+  },
+  {
+   "n": 114,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition"
+   ],
+   "note": "Endless 'boat' repetition; boat eats boat"
+  },
+  {
+   "n": 115,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Blouse dropped; bird appears, nonsensical dialogue"
+  },
+  {
+   "n": 116,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "grammar"
+   ],
+   "note": "Dog not scared, runs; garbled quote; 'not smart'"
+  },
+  {
+   "n": 117,
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Lily is a balloon; 'The end' mid-story"
+  },
+  {
+   "n": 118,
+   "coherence": 0,
+   "relevance": 0,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "logic_error"
+   ],
+   "note": "Gloom ignored; bird talks to itself"
+  },
+  {
+   "n": 119,
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": "fine"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+[syn_only_s0] step 146/1464 loss 3.923 val 4.3522 10130 tok/s
+[syn_only_s0] step 293/1464 loss 3.593 val 4.0186 10175 tok/s
+[syn_only_s0] step 439/1464 loss 3.313 val 3.7654 10205 tok/s
+[syn_only_s0] step 586/1464 loss 3.067 val 3.5889 10197 tok/s
+[syn_only_s0] step 732/1464 loss 2.886 val 3.4216 10193 tok/s
+[syn_only_s0] step 878/1464 loss 2.823 val 3.2796 10182 tok/s
+[syn_only_s0] step 1025/1464 loss 2.690 val 3.1920 10184 tok/s
+[syn_only_s0] step 1171/1464 loss 2.531 val 3.1109 10173 tok/s
+[syn_only_s0] step 1318/1464 loss 2.640 val 3.0578 10166 tok/s
+[syn_only_s0] step 1464/1464 loss 2.671 val 3.0206 10160 tok/s

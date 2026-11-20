@@ -1,0 +1,10 @@
+[real_fresh_s0] step 146/1464 loss 4.161 val 4.1627 10172 tok/s
+[real_fresh_s0] step 293/1464 loss 3.717 val 3.8256 10119 tok/s
+[real_fresh_s0] step 439/1464 loss 3.606 val 3.5642 10090 tok/s
+[real_fresh_s0] step 586/1464 loss 3.578 val 3.3818 10069 tok/s
+[real_fresh_s0] step 732/1464 loss 3.459 val 3.2200 10085 tok/s
+[real_fresh_s0] step 878/1464 loss 3.192 val 3.0930 10078 tok/s
+[real_fresh_s0] step 1025/1464 loss 3.097 val 2.9881 10101 tok/s
+[real_fresh_s0] step 1171/1464 loss 3.054 val 2.9052 10106 tok/s
+[real_fresh_s0] step 1318/1464 loss 3.178 val 2.8542 10108 tok/s
+[real_fresh_s0] step 1464/1464 loss 2.938 val 2.8204 10113 tok/s

@@ -1,0 +1,28 @@
+{
+  "mixture": "mix50_plain",
+  "seed": 0,
+  "budget_tokens": 6000000,
+  "real_share": 0.5,
+  "real": "real",
+  "syn": "plain_filt",
+  "sources": {
+    "real:real": {
+      "tokens": 3000000,
+      "stories": 15290,
+      "unique_stories": 5000,
+      "pool_stories": 5000,
+      "pool_tokens": 980921,
+      "epochs": 3.058
+    },
+    "syn:plain_filt": {
+      "tokens": 3000001,
+      "stories": 16809,
+      "unique_stories": 14674,
+      "pool_stories": 14674,
+      "pool_tokens": 2619813,
+      "epochs": 1.145
+    }
+  },
+  "file": "mixtures\\mix50_plain_s0.bin",
+  "real_token_share_actual": 0.5
+}

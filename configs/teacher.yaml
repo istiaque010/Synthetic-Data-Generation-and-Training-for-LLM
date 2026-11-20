@@ -1,0 +1,23 @@
+# Teacher generation (Phases 4-6). Teacher: roneneldan/TinyStories-33M @ 2ad0a164 (MIT), CPU fp32.
+prompt_seed: 21          # seeded shuffle that assigns open/frame templates and fills frame slots
+base_seed: 1000          # torch seed per batch = base_seed + index of the batch's first prompt
+max_new_tokens: 320      # teacher tokens; TinyStories stories are ~180 tokens (median), 95% under ~420
+batch_prompts: 96        # prompts per batch (x 3 candidates = 288 sequences; ~1,250 tok/s peak on this CPU)
+# Sampling: temperature + top-k 50 (keep the 50 most likely tokens). Top-p 0.95 was the first choice but sorts all
+# 50,257 scores per step and was 1.4x slower on this CPU (866 vs 1,175 tok/s at 192 rows); both are standard.
+generations:
+  main:                  # the main synthetic pool
+    pool: main           # half real-opening prompts, half character/place/goal frames
+    temperature: 1.0
+    top_k: 50
+    candidates: 3
+  lowT:                  # ablation: low sampling temperature (less diverse, fewer errors?)
+    pool: main
+    temperature: 0.6
+    top_k: 50
+    candidates: 3
+  plain:                 # ablation: no diversity control, every prompt is "Once upon a time,"
+    pool: plain
+    temperature: 1.0
+    top_k: 50
+    candidates: 3

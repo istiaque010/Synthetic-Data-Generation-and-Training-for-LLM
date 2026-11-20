@@ -1,0 +1,10 @@
+[lr2e-3_real_only] step 146/1464 loss 4.145 val 4.1724 10199 tok/s
+[lr2e-3_real_only] step 293/1464 loss 3.742 val 3.8156 10232 tok/s
+[lr2e-3_real_only] step 439/1464 loss 3.491 val 3.5743 10230 tok/s
+[lr2e-3_real_only] step 586/1464 loss 3.241 val 3.3989 10216 tok/s
+[lr2e-3_real_only] step 732/1464 loss 3.282 val 3.2608 10206 tok/s
+[lr2e-3_real_only] step 878/1464 loss 3.371 val 3.1555 10178 tok/s
+[lr2e-3_real_only] step 1025/1464 loss 2.930 val 3.0590 10184 tok/s
+[lr2e-3_real_only] step 1171/1464 loss 2.856 val 2.9871 10180 tok/s
+[lr2e-3_real_only] step 1318/1464 loss 2.751 val 2.9456 10168 tok/s
+[lr2e-3_real_only] step 1464/1464 loss 2.763 val 2.9169 10159 tok/s

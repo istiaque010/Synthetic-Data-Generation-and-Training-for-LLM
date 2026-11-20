@@ -1,0 +1,10 @@
+[mix25_filt_s2] step 146/1464 loss 4.239 val 4.2219 10275 tok/s
+[mix25_filt_s2] step 293/1464 loss 3.764 val 3.8510 10265 tok/s
+[mix25_filt_s2] step 439/1464 loss 3.450 val 3.6221 10226 tok/s
+[mix25_filt_s2] step 586/1464 loss 3.338 val 3.4292 10196 tok/s
+[mix25_filt_s2] step 732/1464 loss 3.074 val 3.2664 10197 tok/s
+[mix25_filt_s2] step 878/1464 loss 3.005 val 3.1444 10208 tok/s
+[mix25_filt_s2] step 1025/1464 loss 2.921 val 3.0346 10213 tok/s
+[mix25_filt_s2] step 1171/1464 loss 2.931 val 2.9523 10205 tok/s
+[mix25_filt_s2] step 1318/1464 loss 2.726 val 2.8947 10192 tok/s
+[mix25_filt_s2] step 1464/1464 loss 2.818 val 2.8636 10189 tok/s

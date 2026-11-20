@@ -1,0 +1,14 @@
+# Student training (Phase 12). Identical for every run except the mixture, the seed and (one ablation) the size.
+budget_tokens: 6000000   # training tokens per student (= 1,464 updates x 16 sequences x 256 tokens, rounded up)
+block_size: 256
+batch_size: 16           # sequences per update (4,096 tokens)
+lr: 4.0e-3               # peak learning rate, chosen by the pilot (Phase 12; results/metrics/lr_pilot.json)
+min_lr_ratio: 0.1        # cosine decay to lr x 0.1
+warmup: 100
+weight_decay: 0.1
+betas: [0.9, 0.95]
+grad_clip: 1.0
+evals: 10                # real-validation loss 10 times per run; the lowest is the selected checkpoint
+archs:
+  base:  {n_layer: 4, n_head: 4, n_embd: 256, dropout: 0.1}   # Project 1 "baseline" shape, ~5.3M parameters
+  small: {n_layer: 6, n_head: 6, n_embd: 384, dropout: 0.1}   # Project 1 "small" shape, ~13.9M (size ablation)

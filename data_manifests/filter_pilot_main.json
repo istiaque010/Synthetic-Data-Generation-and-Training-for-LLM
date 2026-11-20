@@ -1,0 +1,115 @@
+{
+  "gen": "pilot_main",
+  "n_raw": 576,
+  "contamination_check_seconds": 1.1792840000707656,
+  "share_with_13gram_overlap_to_heldout": 0.1267361111111111,
+  "real_seed_share_with_13gram_overlap_to_heldout": 0.2368,
+  "near_duplicate_of_heldout": 0,
+  "max_jaccard_to_heldout_p99": 0.041943872043960356,
+  "variants": {
+    "raw": {
+      "stages": [],
+      "candidates": 576,
+      "accepted": 576,
+      "acceptance_rate": 1.0,
+      "accepted_tokens": 105825,
+      "rejected_by": {},
+      "seconds": {
+        "rules": 0.00038929993752390146,
+        "contamination": 0.0002677000593394041
+      }
+    },
+    "filt": {
+      "stages": [
+        "dedup",
+        "rules"
+      ],
+      "candidates": 576,
+      "accepted": 541,
+      "acceptance_rate": 0.9392361111111112,
+      "accepted_tokens": 96804,
+      "rejected_by": {
+        "schema:truncated": 22,
+        "language": 5,
+        "ending": 3,
+        "schema:malformed": 2,
+        "length": 2,
+        "repetition": 1
+      },
+      "seconds": {
+        "rules": 0.030526399961672723,
+        "contamination": 0.00034090003464370966,
+        "dedup": 0.11263420002069324
+      }
+    },
+    "nodedup": {
+      "stages": [
+        "rules"
+      ],
+      "candidates": 576,
+      "accepted": 541,
+      "acceptance_rate": 0.9392361111111112,
+      "accepted_tokens": 96804,
+      "rejected_by": {
+        "schema:truncated": 22,
+        "language": 5,
+        "ending": 3,
+        "schema:malformed": 2,
+        "length": 2,
+        "repetition": 1
+      },
+      "seconds": {
+        "rules": 0.030855100019834936,
+        "contamination": 0.00011570006608963013
+      }
+    },
+    "judge": {
+      "stages": [
+        "dedup",
+        "judge",
+        "rules"
+      ],
+      "candidates": 576,
+      "accepted": 509,
+      "acceptance_rate": 0.8836805555555556,
+      "accepted_tokens": 91544,
+      "rejected_by": {
+        "judge": 32,
+        "schema:truncated": 22,
+        "language": 5,
+        "ending": 3,
+        "schema:malformed": 2,
+        "length": 2,
+        "repetition": 1
+      },
+      "seconds": {
+        "rules": 0.03127659996971488,
+        "contamination": 0.00010290008503943682,
+        "dedup": 0.1127188999671489,
+        "judge": 8.977194999926724
+      }
+    },
+    "cand1": {
+      "stages": [
+        "dedup",
+        "rules"
+      ],
+      "candidates": 192,
+      "accepted": 177,
+      "acceptance_rate": 0.921875,
+      "accepted_tokens": 31516,
+      "rejected_by": {
+        "schema:truncated": 10,
+        "language": 2,
+        "ending": 1,
+        "length": 1,
+        "schema:malformed": 1
+      },
+      "seconds": {
+        "rules": 0.014826099970377982,
+        "contamination": 9.450002107769251e-05,
+        "dedup": 0.04169249988626689
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[lr5e-4_mix50_filt] step 146/1464 loss 4.473 val 4.4972 10117 tok/s
+[lr5e-4_mix50_filt] step 293/1464 loss 3.888 val 4.0734 10039 tok/s
+[lr5e-4_mix50_filt] step 439/1464 loss 3.629 val 3.8237 10072 tok/s
+[lr5e-4_mix50_filt] step 586/1464 loss 3.493 val 3.6597 10074 tok/s
+[lr5e-4_mix50_filt] step 732/1464 loss 3.412 val 3.5231 10073 tok/s
+[lr5e-4_mix50_filt] step 878/1464 loss 3.164 val 3.4249 10068 tok/s
+[lr5e-4_mix50_filt] step 1025/1464 loss 3.271 val 3.3420 10094 tok/s
+[lr5e-4_mix50_filt] step 1171/1464 loss 3.224 val 3.2850 10098 tok/s
+[lr5e-4_mix50_filt] step 1318/1464 loss 3.126 val 3.2516 10108 tok/s
+[lr5e-4_mix50_filt] step 1464/1464 loss 3.075 val 3.2334 10106 tok/s

@@ -1,0 +1,31 @@
+{
+  "rule": "peak lr with the lowest mean real-validation loss over real_only and mix50_filt, seed 100; grid extended upward while the best was at the edge",
+  "grid": {
+    "5e-4": {
+      "mix50_filt": 3.2334266175865265,
+      "real_only": 3.2402069794187836,
+      "mean": 3.2368167985026552
+    },
+    "1e-3": {
+      "mix50_filt": 3.0297755974825145,
+      "real_only": 3.0432408001057327,
+      "mean": 3.036508198794124
+    },
+    "2e-3": {
+      "mix50_filt": 2.9023076237975176,
+      "real_only": 2.91685952797056,
+      "mean": 2.9095835758840387
+    },
+    "4e-3": {
+      "mix50_filt": 2.8551354713129635,
+      "real_only": 2.897809039353849,
+      "mean": 2.8764722553334066
+    },
+    "8e-3": {
+      "mix50_filt": 3.0599427320001986,
+      "real_only": 3.06452613971543,
+      "mean": 3.0622344358578144
+    }
+  },
+  "chosen": "4e-3"
+}

@@ -1,0 +1,19 @@
+{
+  "mixture": "real_only",
+  "seed": 2,
+  "budget_tokens": 6000000,
+  "real_share": 1.0,
+  "real": "real",
+  "sources": {
+    "real:real": {
+      "tokens": 6000001,
+      "stories": 30587,
+      "unique_stories": 5000,
+      "pool_stories": 5000,
+      "pool_tokens": 980921,
+      "epochs": 6.117
+    }
+  },
+  "file": "mixtures\\real_only_s2.bin",
+  "real_token_share_actual": 1.0
+}

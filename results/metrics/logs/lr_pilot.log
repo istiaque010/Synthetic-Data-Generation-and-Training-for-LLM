@@ -1,0 +1,6 @@
+[lr5e-4_real_only] step 1464/1464 loss 3.141 val 3.2402 10204 tok/s
+[lr5e-4_mix50_filt] step 1464/1464 loss 3.075 val 3.2334 10106 tok/s
+[lr1e-3_real_only] step 1464/1464 loss 2.916 val 3.0432 10177 tok/s
+[lr1e-3_mix50_filt] step 1464/1464 loss 2.856 val 3.0298 10174 tok/s
+[lr2e-3_real_only] step 1464/1464 loss 2.763 val 2.9169 10159 tok/s
+[lr2e-3_mix50_filt] step 1464/1464 loss 2.739 val 2.9023 10196 tok/s

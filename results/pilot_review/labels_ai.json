@@ -1,0 +1,1237 @@
+{
+ "annotator": "AI (Claude), not human",
+ "rubric": "coherence 0-2 (sensible events, consistent characters); relevance 0-2 (follows prompt/frame goal); complete 0/1 (has ending); appropriate 0/1 (suitable for young children); issues from fixed vocabulary; note <=15 words",
+ "labels": [
+  {
+   "n": 0,
+   "id": "syn_pilot_main_00136_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "repetition"
+   ],
+   "note": "'Too late' after fall, yet she simply walks home; waterfall repeated"
+  },
+  {
+   "n": 1,
+   "id": "syn_pilot_main_00110_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Puppy comes out of a locked box; key 'for the door'"
+  },
+  {
+   "n": 2,
+   "id": "syn_pilot_main_00035_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Asks to share with 'Mary' (no such character)"
+  },
+  {
+   "n": 3,
+   "id": "syn_pilot_main_00178_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "character_switch"
+   ],
+   "note": "'ran out to meet Lola' while being Lola"
+  },
+  {
+   "n": 4,
+   "id": "syn_pilot_main_00135_1",
+   "coherence": 2,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt"
+   ],
+   "note": "Goal of staying up late is never addressed"
+  },
+  {
+   "n": 5,
+   "id": "syn_pilot_main_00031_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Toy owner too scared to ask; motivation muddled"
+  },
+  {
+   "n": 6,
+   "id": "syn_pilot_main_00169_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Balloon ownership confused between Bobo, Lily and the boy"
+  },
+  {
+   "n": 7,
+   "id": "syn_pilot_main_00035_2",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "logic_error"
+   ],
+   "note": "Refuses to share, gives apple to bird, cat thanks him"
+  },
+  {
+   "n": 8,
+   "id": "syn_pilot_main_00172_1",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Sam/Sara/Tom/Ben names swap; 'Tom and Tom'"
+  },
+  {
+   "n": 9,
+   "id": "syn_pilot_main_00008_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "logic_error"
+   ],
+   "note": "'there was no treasure. Instead... chest full of gold'"
+  },
+  {
+   "n": 10,
+   "id": "syn_pilot_main_00091_1",
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "grammar"
+   ],
+   "note": "Woods quest drifts into baking a cake in a castle"
+  },
+  {
+   "n": 11,
+   "id": "syn_pilot_main_00012_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Pearl 'was part of the crab's body'; muddled middle"
+  },
+  {
+   "n": 12,
+   "id": "syn_pilot_main_00177_2",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Vague events; unclear what happened or what the lesson means"
+  },
+  {
+   "n": 13,
+   "id": "syn_pilot_main_00135_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Bunny in pond plays with a curtain in a house"
+  },
+  {
+   "n": 14,
+   "id": "syn_pilot_main_00144_2",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 15,
+   "id": "syn_pilot_main_00141_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Mom's scolding over a drawing is unmotivated"
+  },
+  {
+   "n": 16,
+   "id": "syn_pilot_main_00016_1",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Baking cake via a drain; cake 'came out of the drain'"
+  },
+  {
+   "n": 17,
+   "id": "syn_pilot_main_00019_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Animals scared for no reason; very short"
+  },
+  {
+   "n": 18,
+   "id": "syn_pilot_main_00008_2",
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "off_prompt"
+   ],
+   "note": "Treasure dropped; snake as 'reward', ends eating cheese"
+  },
+  {
+   "n": 19,
+   "id": "syn_pilot_main_00021_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "John thanks the telephone itself"
+  },
+  {
+   "n": 20,
+   "id": "syn_pilot_main_00086_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction"
+   ],
+   "note": "Friends lack food and beds right after 'everyone was happy'"
+  },
+  {
+   "n": 21,
+   "id": "syn_pilot_main_00058_1",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Bird lies on rock using a file; rock 'can lay on its side'"
+  },
+  {
+   "n": 22,
+   "id": "syn_pilot_main_00178_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Audience 'very serious' yet cheering; odd pole scene"
+  },
+  {
+   "n": 23,
+   "id": "syn_pilot_main_00039_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "abrupt_end"
+   ],
+   "note": "Sam appears from nowhere; ends mid-sentence at 'Sure'"
+  },
+  {
+   "n": 24,
+   "id": "syn_pilot_main_00100_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "grammar"
+   ],
+   "note": "'We can't make a wish' then 'Let's go make a wish!'"
+  },
+  {
+   "n": 25,
+   "id": "syn_pilot_main_00034_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "second_story",
+    "abrupt_end"
+   ],
+   "note": "<|endoftext|> then a new Spot story cut off mid-way"
+  },
+  {
+   "n": 26,
+   "id": "syn_pilot_main_00004_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "grammar"
+   ],
+   "note": "Uses a stick to find the best stick; 'with his strong'"
+  },
+  {
+   "n": 27,
+   "id": "syn_pilot_main_00068_0",
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Borrowing 'a word' from friends; friendship goal lost"
+  },
+  {
+   "n": 28,
+   "id": "syn_pilot_main_00142_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "grammar"
+   ],
+   "note": "'told Daisy her beautiful singing'; 'his wonderful song'"
+  },
+  {
+   "n": 29,
+   "id": "syn_pilot_main_00048_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition"
+   ],
+   "note": "Repeated 'looked around'; 'It looked like little lizards!'"
+  },
+  {
+   "n": 30,
+   "id": "syn_pilot_main_00154_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Painted sun conflated with real sunset"
+  },
+  {
+   "n": 31,
+   "id": "syn_pilot_main_00179_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "abrupt_end"
+   ],
+   "note": "Gives feather then searches for it; ends mid-sentence"
+  },
+  {
+   "n": 32,
+   "id": "syn_pilot_main_00120_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "'She had solved the problem' but there was no problem"
+  },
+  {
+   "n": 33,
+   "id": "syn_pilot_main_00000_2",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Buddy and the flea catch the flea"
+  },
+  {
+   "n": 34,
+   "id": "syn_pilot_main_00038_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "'cookie tree'; box 'too big for me' said by carrier"
+  },
+  {
+   "n": 35,
+   "id": "syn_pilot_main_00178_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "'tasted its deliciousness' then fish hops free"
+  },
+  {
+   "n": 36,
+   "id": "syn_pilot_main_00109_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Moral about hard work does not match events"
+  },
+  {
+   "n": 37,
+   "id": "syn_pilot_main_00076_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Already in kitchen, then 'went to her home'"
+  },
+  {
+   "n": 38,
+   "id": "syn_pilot_main_00168_0",
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "off_prompt",
+    "logic_error"
+   ],
+   "note": "Fish puts hook on tail; new-home goal ignored"
+  },
+  {
+   "n": 39,
+   "id": "syn_pilot_main_00145_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition",
+    "logic_error"
+   ],
+   "note": "Waving repeated; pilot 'stopped his plane' mid-air"
+  },
+  {
+   "n": 40,
+   "id": "syn_pilot_main_00114_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Frog and sprout 'grew into a beautiful flower'"
+  },
+  {
+   "n": 41,
+   "id": "syn_pilot_main_00031_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Unclear who the two friends and two girls are"
+  },
+  {
+   "n": 42,
+   "id": "syn_pilot_main_00021_2",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "grammar",
+    "logic_error"
+   ],
+   "note": "Puppy named Bob then 'I'm Thomas'; garbled dialogue"
+  },
+  {
+   "n": 43,
+   "id": "syn_pilot_main_00105_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Boy carries a big tree home; 'shade stayed sharp'"
+  },
+  {
+   "n": 44,
+   "id": "syn_pilot_main_00189_1",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "logic_error"
+   ],
+   "note": "'teacher said no, but she said it was ok'"
+  },
+  {
+   "n": 45,
+   "id": "syn_pilot_main_00113_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "contradiction"
+   ],
+   "note": "Ice breaks at sunny beach; 'we are not in the sea'"
+  },
+  {
+   "n": 46,
+   "id": "syn_pilot_main_00165_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Packs soil for a picnic"
+  },
+  {
+   "n": 47,
+   "id": "syn_pilot_main_00092_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction"
+   ],
+   "note": "No sound came out, yet bird heard Rex singing"
+  },
+  {
+   "n": 48,
+   "id": "syn_pilot_main_00189_2",
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Star counting turns into a rock in his way"
+  },
+  {
+   "n": 49,
+   "id": "syn_pilot_main_00149_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Cooks on a roof; soup not shared with everyone"
+  },
+  {
+   "n": 50,
+   "id": "syn_pilot_main_00111_2",
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Adventure becomes fence repair; 'rubber knife'"
+  },
+  {
+   "n": 51,
+   "id": "syn_pilot_main_00096_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Muddled promise and moral about the treasure"
+  },
+  {
+   "n": 52,
+   "id": "syn_pilot_main_00114_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Shy to talk to flower; walking makes flower grow"
+  },
+  {
+   "n": 53,
+   "id": "syn_pilot_main_00045_2",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 54,
+   "id": "syn_pilot_main_00084_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction"
+   ],
+   "note": "Timmy 'can't learn', then 'I know how'"
+  },
+  {
+   "n": 55,
+   "id": "syn_pilot_main_00020_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction"
+   ],
+   "note": "'Instead of going outside' after already going outside"
+  },
+  {
+   "n": 56,
+   "id": "syn_pilot_main_00131_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "logic_error"
+   ],
+   "note": "Max gives balloon, then 'Max can have the pink one'"
+  },
+  {
+   "n": 57,
+   "id": "syn_pilot_main_00014_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Pot breaks, then is simply put back on stove"
+  },
+  {
+   "n": 58,
+   "id": "syn_pilot_main_00109_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Wants to catch fish, ends 'happy that he was safe'"
+  },
+  {
+   "n": 59,
+   "id": "syn_pilot_main_00044_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "'biggest dog his brother had ever seen'; brother 'tricked him'"
+  },
+  {
+   "n": 60,
+   "id": "syn_pilot_main_00086_0",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "grammar",
+    "logic_error"
+   ],
+   "note": "Garbled flood scene; 'Will Tom and Lily, or run back'"
+  },
+  {
+   "n": 61,
+   "id": "syn_pilot_main_00142_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Friend's line attributed to Daisy"
+  },
+  {
+   "n": 62,
+   "id": "syn_pilot_main_00014_2",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 63,
+   "id": "syn_pilot_main_00057_1",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "logic_error"
+   ],
+   "note": "Confused bug/sickness plot; 'never go to the mall again'"
+  },
+  {
+   "n": 64,
+   "id": "syn_pilot_main_00048_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Sees sleeping bird, 'nice adventure', decides to hide"
+  },
+  {
+   "n": 65,
+   "id": "syn_pilot_main_00150_1",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 66,
+   "id": "syn_pilot_main_00187_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Thirsty chicken 'drinking the hay'"
+  },
+  {
+   "n": 67,
+   "id": "syn_pilot_main_00125_2",
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Swimming dropped; takes teacher's cake, teacher thanks him"
+  },
+  {
+   "n": 68,
+   "id": "syn_pilot_main_00131_2",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "grammar"
+   ],
+   "note": "'making me dream come true'"
+  },
+  {
+   "n": 69,
+   "id": "syn_pilot_main_00154_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch"
+   ],
+   "note": "Mia and Max take over; 'Max, the dog'"
+  },
+  {
+   "n": 70,
+   "id": "syn_pilot_main_00169_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Food 'improves' jumping; moral mismatched"
+  },
+  {
+   "n": 71,
+   "id": "syn_pilot_main_00157_1",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Farmer/duck roles blur; 'saved the frog'"
+  },
+  {
+   "n": 72,
+   "id": "syn_pilot_main_00182_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Wearing a belt protects from falling"
+  },
+  {
+   "n": 73,
+   "id": "syn_pilot_main_00078_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "'The chicken wrapped her up'; machine motives unclear"
+  },
+  {
+   "n": 74,
+   "id": "syn_pilot_main_00043_1",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 75,
+   "id": "syn_pilot_main_00041_1",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 76,
+   "id": "syn_pilot_main_00051_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition"
+   ],
+   "note": "Sharing the apple narrated twice"
+  },
+  {
+   "n": 77,
+   "id": "syn_pilot_main_00191_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error",
+    "grammar"
+   ],
+   "note": "'put his truck on'; nonsensical car dialogue"
+  },
+  {
+   "n": 78,
+   "id": "syn_pilot_main_00002_1",
+   "coherence": 1,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Wind goal barely touched; 'a tree could appear'"
+  },
+  {
+   "n": 79,
+   "id": "syn_pilot_main_00011_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "logic_error"
+   ],
+   "note": "'so honest that... he wasn't telling the truth'"
+  },
+  {
+   "n": 80,
+   "id": "syn_pilot_main_00067_1",
+   "coherence": 0,
+   "relevance": 1,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Wand passes back and forth; moon grows; sheep appear"
+  },
+  {
+   "n": 81,
+   "id": "syn_pilot_main_00073_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "abrupt_end"
+   ],
+   "note": "'three of them', 'three year old child'; ends mid-sentence"
+  },
+  {
+   "n": 82,
+   "id": "syn_pilot_main_00186_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Folder with a lid; 'young folk'; phone appears"
+  },
+  {
+   "n": 83,
+   "id": "syn_pilot_main_00023_2",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 84,
+   "id": "syn_pilot_main_00095_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "repetition"
+   ],
+   "note": "'waggy wagon'; Tim thanks Tim"
+  },
+  {
+   "n": 85,
+   "id": "syn_pilot_main_00140_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 0,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Monster eats the animals; frightening ending"
+  },
+  {
+   "n": 86,
+   "id": "syn_pilot_main_00044_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction"
+   ],
+   "note": "Closes cage door; 'happy that he had stopped the bird'"
+  },
+  {
+   "n": 87,
+   "id": "syn_pilot_main_00128_1",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition",
+    "grammar"
+   ],
+   "note": ""
+  },
+  {
+   "n": 88,
+   "id": "syn_pilot_main_00006_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "contradiction"
+   ],
+   "note": "Catches second butterfly, then 'had left it alone'"
+  },
+  {
+   "n": 89,
+   "id": "syn_pilot_main_00017_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Opening a 'loop' to find a treasure map"
+  },
+  {
+   "n": 90,
+   "id": "syn_pilot_main_00037_0",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Secret word dropped; rock becomes magic door"
+  },
+  {
+   "n": 91,
+   "id": "syn_pilot_main_00139_1",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 0,
+   "appropriate": 1,
+   "issues": [
+    "contradiction",
+    "logic_error",
+    "abrupt_end"
+   ],
+   "note": "Dog's ball, Lily appears, roles flip; cut off mid-sentence"
+  },
+  {
+   "n": 92,
+   "id": "syn_pilot_main_00124_0",
+   "coherence": 0,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "logic_error"
+   ],
+   "note": "Toby becomes Toot and Leo; 'tower was getting tired'"
+  },
+  {
+   "n": 93,
+   "id": "syn_pilot_main_00006_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Lesson about selfishness and questions does not fit"
+  },
+  {
+   "n": 94,
+   "id": "syn_pilot_main_00098_0",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "none"
+   ],
+   "note": ""
+  },
+  {
+   "n": 95,
+   "id": "syn_pilot_main_00148_2",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "logic_error"
+   ],
+   "note": "Bird in the hay never introduced"
+  },
+  {
+   "n": 96,
+   "id": "syn_pilot_main_00012_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition"
+   ],
+   "note": "Repetitive crab-meets-crab"
+  },
+  {
+   "n": 97,
+   "id": "syn_pilot_main_00120_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "grammar"
+   ],
+   "note": "Unknown 'Smier' appears"
+  },
+  {
+   "n": 98,
+   "id": "syn_pilot_main_00116_1",
+   "coherence": 1,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "character_switch",
+    "grammar"
+   ],
+   "note": "Buzz becomes 'Sam, the bee'; 'Zoomed the sky'"
+  },
+  {
+   "n": 99,
+   "id": "syn_pilot_main_00175_0",
+   "coherence": 2,
+   "relevance": 2,
+   "complete": 1,
+   "appropriate": 1,
+   "issues": [
+    "repetition"
+   ],
+   "note": "'picked up trash, picked up trash'"
+  }
+ ]
+}

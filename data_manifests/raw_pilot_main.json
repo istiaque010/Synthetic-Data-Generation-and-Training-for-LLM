@@ -1,0 +1,28 @@
+{
+  "gen": "pilot_main",
+  "config": {
+    "pool": "main",
+    "temperature": 1.0,
+    "top_k": 50,
+    "candidates": 3
+  },
+  "decoding": {
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "max_new_tokens": 320,
+    "candidates": 3
+  },
+  "teacher": "roneneldan/TinyStories-33M",
+  "revision": "2ad0a164221b7c4d21cac7c46aec74f6f98dbfc8",
+  "prompts": 192,
+  "candidates": 576,
+  "teacher_tokens": 101507,
+  "hit_limit": 22,
+  "generation_seconds": 136.586,
+  "hardware": {
+    "device": "cpu",
+    "threads": 24,
+    "precision": "fp32"
+  }
+}

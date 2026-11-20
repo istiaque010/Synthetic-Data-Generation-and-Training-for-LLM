@@ -1,0 +1,34 @@
+{
+  "gen": "plain",
+  "n_raw": 15000,
+  "contamination_check_seconds": 2.356545399990864,
+  "share_with_13gram_overlap_to_heldout": 0.4755333333333333,
+  "real_seed_share_with_13gram_overlap_to_heldout": 0.2368,
+  "near_duplicate_of_heldout": 0,
+  "max_jaccard_to_heldout_p99": 0.06637168141592921,
+  "variants": {
+    "filt": {
+      "stages": [
+        "dedup",
+        "rules"
+      ],
+      "candidates": 15000,
+      "accepted": 14674,
+      "acceptance_rate": 0.9782666666666666,
+      "accepted_tokens": 2590465,
+      "rejected_by": {
+        "ending": 80,
+        "schema:malformed": 68,
+        "repetition": 47,
+        "schema:truncated": 46,
+        "language": 46,
+        "length": 39
+      },
+      "seconds": {
+        "rules": 1.102211199933663,
+        "contamination": 0.004650200018659234,
+        "dedup": 5.47167699993588
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "computed_on": "5,000 real seed stories (vocabulary from the 40,000 fresh stories)",
+  "rep4_p99": 0.0640404141952348,
+  "rep4_p50": 0.005194840241796228,
+  "oov_p99": 0.032473435655253964,
+  "oov_p50": 0.0,
+  "max_sentence_repeat_share_ge3": 0.0004,
+  "judge_loss_p90": 2.240938496589661,
+  "judge_loss_p50": 1.6759929656982422,
+  "real_rejected_by_rules": {
+    "ok": 4898,
+    "repetition": 52,
+    "language": 50
+  }
+}

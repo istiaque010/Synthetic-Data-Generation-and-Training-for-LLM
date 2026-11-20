@@ -1,0 +1,298 @@
+{
+  "real_seeds": {
+    "stories": 5000,
+    "tokens": 970921,
+    "len_mean": 194.1842,
+    "len_p5": 122.0,
+    "len_p50": 178.0,
+    "len_p95": 351.0,
+    "distinct_1": 0.017966406626570754,
+    "distinct_2": 0.24001989379678054,
+    "vocab_types_2000": 5852,
+    "real_vocab_coverage_2000": 0.502454991816694,
+    "rep4_mean": 0.009334278582091073,
+    "distinct_names": 264,
+    "top_name": [
+      "Lily",
+      689
+    ],
+    "top5_name_share": 0.5814061054579094
+  },
+  "real_fresh": {
+    "stories": 5000,
+    "tokens": 973358,
+    "len_mean": 194.6716,
+    "len_p5": 121.95000000000002,
+    "len_p50": 178.0,
+    "len_p95": 358.0500000000002,
+    "distinct_1": 0.01784647802344207,
+    "distinct_2": 0.2386758991331466,
+    "vocab_types_2000": 5827,
+    "real_vocab_coverage_2000": 0.5142753227859611,
+    "rep4_mean": 0.009498961924922451,
+    "distinct_names": 255,
+    "top_name": [
+      "Lily",
+      727
+    ],
+    "top5_name_share": 0.5985198889916744
+  },
+  "lowT_filt": {
+    "stories": 13710,
+    "tokens": 2352282,
+    "len_mean": 171.57417943107222,
+    "len_p5": 120.0,
+    "len_p50": 167.0,
+    "len_p95": 238.0,
+    "distinct_1": 0.012314124780352964,
+    "distinct_2": 0.1628538057504144,
+    "vocab_types_2000": 3546,
+    "real_vocab_coverage_2000": 0.31796690307328607,
+    "rep4_mean": 0.012472080448147963,
+    "distinct_names": 213,
+    "top_name": [
+      "Lily",
+      1531
+    ],
+    "top5_name_share": 0.2848896971613821,
+    "acceptance_rate": 0.914,
+    "candidates": 15000,
+    "rejected_by": {
+      "schema:truncated": 697,
+      "repetition": 453,
+      "language": 65,
+      "length": 59,
+      "ending": 13,
+      "schema:empty": 2,
+      "schema:malformed": 1
+    },
+    "templates": {
+      "frame": 7305,
+      "open": 6405
+    }
+  },
+  "main_cand1": {
+    "stories": 4649,
+    "tokens": 825655,
+    "len_mean": 177.59840825984082,
+    "len_p5": 121.0,
+    "len_p50": 174.0,
+    "len_p95": 248.0,
+    "distinct_1": 0.015843292021974556,
+    "distinct_2": 0.21939583959781203,
+    "vocab_types_2000": 4721,
+    "real_vocab_coverage_2000": 0.41371158392434987,
+    "rep4_mean": 0.006372320813766436,
+    "distinct_names": 200,
+    "top_name": [
+      "Lily",
+      455
+    ],
+    "top5_name_share": 0.2644909887968826,
+    "acceptance_rate": 0.9298,
+    "candidates": 5000,
+    "rejected_by": {
+      "schema:truncated": 233,
+      "ending": 30,
+      "length": 25,
+      "schema:malformed": 23,
+      "language": 23,
+      "repetition": 14,
+      "schema:empty": 3
+    },
+    "templates": {
+      "frame": 2457,
+      "open": 2192
+    }
+  },
+  "main_filt": {
+    "stories": 13966,
+    "tokens": 2477339,
+    "len_mean": 177.3835743949592,
+    "len_p5": 120.0,
+    "len_p50": 173.0,
+    "len_p95": 249.0,
+    "distinct_1": 0.01566980506829104,
+    "distinct_2": 0.2175190019412658,
+    "vocab_types_2000": 4705,
+    "real_vocab_coverage_2000": 0.41334788143298784,
+    "rep4_mean": 0.006556946861943557,
+    "distinct_names": 282,
+    "top_name": [
+      "Lily",
+      1348
+    ],
+    "top5_name_share": 0.2620420761920234,
+    "acceptance_rate": 0.9310666666666667,
+    "candidates": 15000,
+    "rejected_by": {
+      "schema:truncated": 682,
+      "ending": 96,
+      "language": 75,
+      "schema:malformed": 71,
+      "length": 56,
+      "repetition": 50,
+      "schema:empty": 4
+    },
+    "templates": {
+      "frame": 7376,
+      "open": 6590
+    }
+  },
+  "main_judge": {
+    "stories": 13034,
+    "tokens": 2312857,
+    "len_mean": 177.44798220039897,
+    "len_p5": 121.0,
+    "len_p50": 173.0,
+    "len_p95": 249.0,
+    "distinct_1": 0.015468716748244307,
+    "distinct_2": 0.215578303251031,
+    "vocab_types_2000": 4652,
+    "real_vocab_coverage_2000": 0.41189307146753956,
+    "rep4_mean": 0.006584764536415086,
+    "distinct_names": 272,
+    "top_name": [
+      "Lily",
+      1341
+    ],
+    "top5_name_share": 0.27207698203184877,
+    "acceptance_rate": 0.8689333333333333,
+    "candidates": 15000,
+    "rejected_by": {
+      "judge": 932,
+      "schema:truncated": 682,
+      "ending": 96,
+      "language": 75,
+      "schema:malformed": 71,
+      "length": 56,
+      "repetition": 50,
+      "schema:empty": 4
+    },
+    "templates": {
+      "frame": 6915,
+      "open": 6119
+    }
+  },
+  "main_nodedup": {
+    "stories": 13966,
+    "tokens": 2477339,
+    "len_mean": 177.3835743949592,
+    "len_p5": 120.0,
+    "len_p50": 173.0,
+    "len_p95": 249.0,
+    "distinct_1": 0.01566980506829104,
+    "distinct_2": 0.2175190019412658,
+    "vocab_types_2000": 4705,
+    "real_vocab_coverage_2000": 0.41334788143298784,
+    "rep4_mean": 0.006556946861943557,
+    "distinct_names": 282,
+    "top_name": [
+      "Lily",
+      1348
+    ],
+    "top5_name_share": 0.2620420761920234,
+    "acceptance_rate": 0.9310666666666667,
+    "candidates": 15000,
+    "rejected_by": {
+      "schema:truncated": 682,
+      "ending": 96,
+      "language": 75,
+      "schema:malformed": 71,
+      "length": 56,
+      "repetition": 50,
+      "schema:empty": 4
+    },
+    "templates": {
+      "frame": 7376,
+      "open": 6590
+    }
+  },
+  "main_raw": {
+    "stories": 14996,
+    "tokens": 2750501,
+    "len_mean": 183.41564417177915,
+    "len_p5": 120.0,
+    "len_p50": 176.0,
+    "len_p95": 297.0,
+    "distinct_1": 0.015595387234589315,
+    "distinct_2": 0.21798195984610907,
+    "vocab_types_2000": 4855,
+    "real_vocab_coverage_2000": 0.4243498817966903,
+    "rep4_mean": 0.007409796084136531,
+    "distinct_names": 295,
+    "top_name": [
+      "Lily",
+      1360
+    ],
+    "top5_name_share": 0.25913832921876245,
+    "acceptance_rate": 0.9997333333333334,
+    "candidates": 15000,
+    "rejected_by": {
+      "schema:empty": 4
+    },
+    "templates": {
+      "frame": 7499,
+      "open": 7497
+    }
+  },
+  "plain_filt": {
+    "stories": 14674,
+    "tokens": 2590465,
+    "len_mean": 176.53434646313207,
+    "len_p5": 123.0,
+    "len_p50": 174.0,
+    "len_p95": 241.0,
+    "distinct_1": 0.016007378766663215,
+    "distinct_2": 0.21127585058387752,
+    "vocab_types_2000": 4790,
+    "real_vocab_coverage_2000": 0.4213493362429533,
+    "rep4_mean": 0.0064146087265613645,
+    "distinct_names": 296,
+    "top_name": [
+      "Lily",
+      4933
+    ],
+    "top5_name_share": 0.6922473183919072,
+    "acceptance_rate": 0.9782666666666666,
+    "candidates": 15000,
+    "rejected_by": {
+      "ending": 80,
+      "schema:malformed": 68,
+      "repetition": 47,
+      "schema:truncated": 46,
+      "language": 46,
+      "length": 39
+    },
+    "templates": {
+      "plain": 14674
+    }
+  },
+  "contamination_main": {
+    "gen": "main",
+    "n_raw": 15000,
+    "contamination_check_seconds": 2.444820399978198,
+    "share_with_13gram_overlap_to_heldout": 0.1266,
+    "real_seed_share_with_13gram_overlap_to_heldout": 0.2368,
+    "near_duplicate_of_heldout": 0,
+    "max_jaccard_to_heldout_p99": 0.04869216073567989
+  },
+  "contamination_lowT": {
+    "gen": "lowT",
+    "n_raw": 15000,
+    "contamination_check_seconds": 2.3571796000469476,
+    "share_with_13gram_overlap_to_heldout": 0.1558,
+    "real_seed_share_with_13gram_overlap_to_heldout": 0.2368,
+    "near_duplicate_of_heldout": 0,
+    "max_jaccard_to_heldout_p99": 0.060465303825956496
+  },
+  "contamination_plain": {
+    "gen": "plain",
+    "n_raw": 15000,
+    "contamination_check_seconds": 2.356545399990864,
+    "share_with_13gram_overlap_to_heldout": 0.4755333333333333,
+    "real_seed_share_with_13gram_overlap_to_heldout": 0.2368,
+    "near_duplicate_of_heldout": 0,
+    "max_jaccard_to_heldout_p99": 0.06637168141592921
+  }
+}

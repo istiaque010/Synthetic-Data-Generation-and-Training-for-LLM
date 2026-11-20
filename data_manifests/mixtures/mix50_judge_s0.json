@@ -1,0 +1,28 @@
+{
+  "mixture": "mix50_judge",
+  "seed": 0,
+  "budget_tokens": 6000000,
+  "real_share": 0.5,
+  "real": "real",
+  "syn": "main_judge",
+  "sources": {
+    "real:real": {
+      "tokens": 3000000,
+      "stories": 15290,
+      "unique_stories": 5000,
+      "pool_stories": 5000,
+      "pool_tokens": 980921,
+      "epochs": 3.058
+    },
+    "syn:main_judge": {
+      "tokens": 3000001,
+      "stories": 16716,
+      "unique_stories": 13034,
+      "pool_stories": 13034,
+      "pool_tokens": 2338925,
+      "epochs": 1.283
+    }
+  },
+  "file": "mixtures\\mix50_judge_s0.bin",
+  "real_token_share_actual": 0.5
+}

@@ -1,0 +1,90 @@
+{
+  "run": "syn_only_s2",
+  "mixture": "syn_only",
+  "seed": 2,
+  "arch": "base",
+  "lr": 0.004,
+  "steps": 1464,
+  "tokens": 5996544,
+  "train_seconds": 590.8206447014818,
+  "best_step": 1464,
+  "best_val_loss": 3.00487834195554,
+  "final_val_loss": 3.00487834195554,
+  "evals": [
+    {
+      "step": 146,
+      "val_loss": 4.315330796427825,
+      "secs": 58.85732929990627
+    },
+    {
+      "step": 293,
+      "val_loss": 3.9937989345538005,
+      "secs": 118.26348110090476
+    },
+    {
+      "step": 439,
+      "val_loss": 3.7383209121989625,
+      "secs": 176.3694165010238
+    },
+    {
+      "step": 586,
+      "val_loss": 3.5655558633643056,
+      "secs": 235.5802982012974
+    },
+    {
+      "step": 732,
+      "val_loss": 3.3928627147787203,
+      "secs": 294.4786388009088
+    },
+    {
+      "step": 878,
+      "val_loss": 3.2710829620033266,
+      "secs": 353.394247101387
+    },
+    {
+      "step": 1025,
+      "val_loss": 3.162847238607144,
+      "secs": 413.40716420137323
+    },
+    {
+      "step": 1171,
+      "val_loss": 3.090905640512753,
+      "secs": 472.5675715019461
+    },
+    {
+      "step": 1318,
+      "val_loss": 3.032909226525824,
+      "secs": 532.0976441019448
+    },
+    {
+      "step": 1464,
+      "val_loss": 3.00487834195554,
+      "secs": 590.8206447014818
+    }
+  ],
+  "params": {
+    "total": 5322240,
+    "trainable": 5322240,
+    "non_embedding": 3159552
+  },
+  "peak_rss_mb": 2237.80859375,
+  "mixture_manifest": {
+    "mixture": "syn_only",
+    "seed": 2,
+    "budget_tokens": 6000000,
+    "real_share": 0.0,
+    "syn": "main_filt",
+    "sources": {
+      "syn:main_filt": {
+        "tokens": 6000001,
+        "stories": 33466,
+        "unique_stories": 13966,
+        "pool_stories": 13966,
+        "pool_tokens": 2505271,
+        "epochs": 2.395
+      }
+    },
+    "file": "mixtures\\syn_only_s2.bin",
+    "real_token_share_actual": 0.0
+  }
+}

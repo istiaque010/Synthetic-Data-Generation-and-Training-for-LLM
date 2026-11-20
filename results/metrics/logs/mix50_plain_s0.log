@@ -1,0 +1,10 @@
+[mix50_plain_s0] step 146/1464 loss 3.885 val 4.1794 10155 tok/s
+[mix50_plain_s0] step 293/1464 loss 3.701 val 3.8267 10187 tok/s
+[mix50_plain_s0] step 439/1464 loss 3.388 val 3.6085 10159 tok/s
+[mix50_plain_s0] step 586/1464 loss 3.162 val 3.4317 10146 tok/s
+[mix50_plain_s0] step 732/1464 loss 3.055 val 3.2817 10136 tok/s
+[mix50_plain_s0] step 878/1464 loss 3.053 val 3.1408 10121 tok/s
+[mix50_plain_s0] step 1025/1464 loss 2.891 val 3.0327 10130 tok/s
+[mix50_plain_s0] step 1171/1464 loss 2.802 val 2.9542 10122 tok/s
+[mix50_plain_s0] step 1318/1464 loss 2.758 val 2.9039 10113 tok/s
+[mix50_plain_s0] step 1464/1464 loss 2.789 val 2.8638 10106 tok/s

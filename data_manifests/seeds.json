@@ -1,0 +1,42 @@
+{
+  "source": "Project 1 data/clean/{train,validation,test}.parquet (TinyStories, CDLA-Sharing-1.0)",
+  "train_window": 200000,
+  "token_range": [
+    80,
+    450
+  ],
+  "counts": {
+    "seeds": 5000,
+    "fresh": 40000,
+    "val": 500,
+    "test_loss": 2000,
+    "test_prompt": 300
+  },
+  "tokens": {
+    "seeds": 970921,
+    "fresh": 7787570,
+    "val": 97371,
+    "test_loss": 381797,
+    "test_prompt": 57429
+  },
+  "pairwise_story_overlap": {
+    "seeds&val": 0,
+    "seeds&test_loss": 0,
+    "seeds&test_prompt": 0,
+    "fresh&seeds": 0,
+    "fresh&val": 0,
+    "fresh&test_loss": 0,
+    "fresh&test_prompt": 0,
+    "test_loss&val": 0,
+    "test_loss&test_prompt": 0,
+    "test_prompt&val": 0
+  },
+  "test_prompts_skipped_because_opening_equals_a_seed_opening": 128,
+  "ids_sha1": {
+    "seeds": "92806d68353b0e5c311d8575936378cc23db0029",
+    "fresh": "c2e0c6fc1c0192e32d121b31debe83cd62a347ac",
+    "val": "70bb09effce48a1b5ff57ea4038d65e94a25a6b6",
+    "test_loss": "5be9c1e1e788cd65e913cf2a76d08c5cd93e96a3",
+    "test_prompt": "5f146008f1046373a0b152e9b592aafdaa40c568"
+  }
+}

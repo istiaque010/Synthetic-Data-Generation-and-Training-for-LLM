@@ -1,0 +1,80 @@
+{
+  "annotator": "AI (Claude), blind to system; not human",
+  "systems": {
+    "mix50_filt": {
+      "n": 20,
+      "coherence_mean": 0.1,
+      "relevance_mean": 0.8,
+      "issues": {
+        "logic_error": 12,
+        "character_switch": 12,
+        "repetition": 5,
+        "abrupt_end": 3,
+        "off_prompt": 3,
+        "contradiction": 3,
+        "grammar": 2
+      }
+    },
+    "real_fresh": {
+      "n": 20,
+      "coherence_mean": 0.05,
+      "relevance_mean": 0.8,
+      "issues": {
+        "logic_error": 14,
+        "character_switch": 11,
+        "grammar": 4,
+        "repetition": 4,
+        "off_prompt": 4,
+        "abrupt_end": 2,
+        "contradiction": 1
+      }
+    },
+    "mix50_raw": {
+      "n": 20,
+      "coherence_mean": 0.15,
+      "relevance_mean": 0.8,
+      "issues": {
+        "character_switch": 14,
+        "logic_error": 12,
+        "abrupt_end": 4,
+        "off_prompt": 4,
+        "repetition": 2
+      }
+    },
+    "real_only": {
+      "n": 20,
+      "coherence_mean": 0.1,
+      "relevance_mean": 0.9,
+      "issues": {
+        "logic_error": 11,
+        "repetition": 10,
+        "character_switch": 9,
+        "contradiction": 3,
+        "off_prompt": 3
+      }
+    },
+    "real": {
+      "n": 20,
+      "coherence_mean": 1.8,
+      "relevance_mean": 2.0,
+      "issues": {
+        "logic_error": 4,
+        "grammar": 2,
+        "contradiction": 1
+      }
+    },
+    "syn_only": {
+      "n": 20,
+      "coherence_mean": 0.1,
+      "relevance_mean": 0.7,
+      "issues": {
+        "character_switch": 15,
+        "logic_error": 10,
+        "contradiction": 5,
+        "off_prompt": 5,
+        "repetition": 3,
+        "abrupt_end": 2
+      }
+    }
+  }
+}

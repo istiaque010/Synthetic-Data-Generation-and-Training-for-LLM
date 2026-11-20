@@ -1,0 +1,8 @@
+{
+  "what": "word 5-gram Jaccard between the 3 candidates of each prompt (the most likely duplicates), parsed non-empty records",
+  "main":  {"pairs": 15000, "mean": 0.049, "p99": 0.102, "pairs_ge_0.3": 1, "note": "the one pair >= 0.3 has Jaccard 1.0 but is an empty output (text = prompt only), removed as schema:empty before dedup"},
+  "lowT":  {"pairs": 15000, "mean": 0.060, "p99": 0.140, "max": 0.423, "pairs_ge_0.3": 3},
+  "plain": {"pairs": 15000, "mean": 0.012, "p99": 0.042, "max": 0.095, "pairs_ge_0.3": 0},
+  "dedup_threshold": 0.5,
+  "conclusion": "sampling at T 1.0/0.6 with top-k 50 from a 33M teacher produced no near-duplicates; dedup removed 0 records in every pool, so mix50_nodedup is byte-identical in data to mix50_filt (only the shuffle seed is shared)"
+}

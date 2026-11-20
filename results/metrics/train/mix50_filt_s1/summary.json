@@ -1,0 +1,99 @@
+{
+  "run": "mix50_filt_s1",
+  "mixture": "mix50_filt",
+  "seed": 1,
+  "arch": "base",
+  "lr": 0.004,
+  "steps": 1464,
+  "tokens": 5996544,
+  "train_seconds": 591.2873374968767,
+  "best_step": 1464,
+  "best_val_loss": 2.8746050096049274,
+  "final_val_loss": 2.8746050096049274,
+  "evals": [
+    {
+      "step": 146,
+      "val_loss": 4.209194780464265,
+      "secs": 58.36968250002246
+    },
+    {
+      "step": 293,
+      "val_loss": 3.8526878684204635,
+      "secs": 117.81599599914625
+    },
+    {
+      "step": 439,
+      "val_loss": 3.6115067042928413,
+      "secs": 176.72622669965494
+    },
+    {
+      "step": 586,
+      "val_loss": 3.440599479676852,
+      "secs": 236.75322019914165
+    },
+    {
+      "step": 732,
+      "val_loss": 3.266642090822277,
+      "secs": 295.41514529881533
+    },
+    {
+      "step": 878,
+      "val_loss": 3.140868783905778,
+      "secs": 354.12766079895664
+    },
+    {
+      "step": 1025,
+      "val_loss": 3.050286481682009,
+      "secs": 413.0412127978634
+    },
+    {
+      "step": 1171,
+      "val_loss": 2.9591707511529717,
+      "secs": 472.2647299969103
+    },
+    {
+      "step": 1318,
+      "val_loss": 2.9057875263181936,
+      "secs": 531.9013096975395
+    },
+    {
+      "step": 1464,
+      "val_loss": 2.8746050096049274,
+      "secs": 591.2873374968767
+    }
+  ],
+  "params": {
+    "total": 5322240,
+    "trainable": 5322240,
+    "non_embedding": 3159552
+  },
+  "peak_rss_mb": 2080.66015625,
+  "mixture_manifest": {
+    "mixture": "mix50_filt",
+    "seed": 1,
+    "budget_tokens": 6000000,
+    "real_share": 0.5,
+    "real": "real",
+    "syn": "main_filt",
+    "sources": {
+      "real:real": {
+        "tokens": 3000000,
+        "stories": 15289,
+        "unique_stories": 5000,
+        "pool_stories": 5000,
+        "pool_tokens": 980921,
+        "epochs": 3.058
+      },
+      "syn:main_filt": {
+        "tokens": 3000001,
+        "stories": 16696,
+        "unique_stories": 13966,
+        "pool_stories": 13966,
+        "pool_tokens": 2505271,
+        "epochs": 1.197
+      }
+    },
+    "file": "mixtures\\mix50_filt_s1.bin",
+    "real_token_share_actual": 0.5
+  }
+}

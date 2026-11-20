@@ -1,0 +1,342 @@
+{
+  "hardware": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu_count": 24,
+    "ram_gb": 63.7,
+    "torch": "2.14.1+cpu",
+    "transformers": "5.22.2",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.4",
+    "cuda_available": false,
+    "device": "cpu",
+    "precision": "fp32",
+    "teacher": {
+      "repo": "roneneldan/TinyStories-33M",
+      "revision": "2ad0a164221b7c4d21cac7c46aec74f6f98dbfc8",
+      "license": "MIT"
+    },
+    "scorer": {
+      "repo": "HuggingFaceTB/SmolLM2-135M",
+      "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+      "license": "Apache-2.0"
+    },
+    "data_license": "TinyStories (roneneldan/TinyStories): CDLA-Sharing-1.0",
+    "sha256": {
+      "tokenizer (Project 1)": "158ade557bac5c94223fb23d12cd125c58b481e3146d77417e6a5eb777c0f530",
+      "judge model (Project 1 small)": "b4a9986a17bf478ee8223d71d62f6c3fef3a076bf8ebafc2c589b6ca94611361",
+      "teacher weights (Project 4 download)": "41316d3bad3cf7766cbc36443a71c5ef05321a1c4fa14855df537998c6dad302",
+      "scorer weights": "80521b40281d6ce74e35c9282c22539e75aa0ac8578892b2a59955ef78d55da1",
+      "TinyStories cleaned train (Project 1)": "5dc637d8797b4b3d41d80366440f44fb84e99185d49f24dfb8abc6faa4867920",
+      "TinyStories cleaned validation (Project 1)": "76ec615a3ebeb6f4bc9152f1813ac58531a3c4baf6e8cb3ad5f47525184f7dfc",
+      "TinyStories cleaned test (Project 1)": "16a0721f345792228e03c20aa80cd686e008b72fac18627b2f74f3c90df18b41"
+    }
+  },
+  "teacher": {
+    "main": {
+      "candidates": 15000,
+      "teacher_tokens": 2632787,
+      "generation_seconds": 3603.938,
+      "teacher_tokens_per_s": 730.5306029127026,
+      "hit_limit": 682,
+      "accepted": 13966,
+      "accepted_per_hour": 13950.739441133559,
+      "accepted_student_tokens": 2477339,
+      "accepted_student_tokens_per_teacher_s": 687.3977854225017
+    },
+    "lowT": {
+      "candidates": 15000,
+      "teacher_tokens": 2550350,
+      "generation_seconds": 3535.072,
+      "teacher_tokens_per_s": 721.4421658172732,
+      "hit_limit": 697,
+      "accepted": 13710,
+      "accepted_per_hour": 13961.808981542667,
+      "accepted_student_tokens": 2352282,
+      "accepted_student_tokens_per_teacher_s": 665.4127553837659
+    },
+    "plain": {
+      "candidates": 15000,
+      "teacher_tokens": 2748680,
+      "generation_seconds": 3423.866,
+      "teacher_tokens_per_s": 802.8001095837278,
+      "hit_limit": 46,
+      "accepted": 14674,
+      "accepted_per_hour": 15428.874844985172,
+      "accepted_student_tokens": 2590465,
+      "accepted_student_tokens_per_teacher_s": 756.5906492835876
+    }
+  },
+  "filter": {
+    "main": {
+      "raw": {
+        "rules": 0.008525599958375096,
+        "contamination": 0.0036296999314799905
+      },
+      "filt": {
+        "rules": 0.9834131000097841,
+        "contamination": 0.004163899924606085,
+        "dedup": 4.554152800003067
+      },
+      "nodedup": {
+        "rules": 1.0171105000190437,
+        "contamination": 0.003916299901902676
+      },
+      "judge": {
+        "rules": 1.1348216000478715,
+        "contamination": 0.003941799979656935,
+        "dedup": 4.896949199959636,
+        "judge": 164.63919849996455
+      },
+      "cand1": {
+        "rules": 0.3120909999124706,
+        "contamination": 0.003306700033135712,
+        "dedup": 1.288342299987562
+      },
+      "contamination_index": 2.444820399978198
+    },
+    "lowT": {
+      "filt": {
+        "rules": 0.9472185000777245,
+        "contamination": 0.004076399956829846,
+        "dedup": 4.6897070000413805
+      },
+      "contamination_index": 2.3571796000469476
+    },
+    "plain": {
+      "filt": {
+        "rules": 1.102211199933663,
+        "contamination": 0.004650200018659234,
+        "dedup": 5.47167699993588
+      },
+      "contamination_index": 2.356545399990864
+    }
+  },
+  "student": {
+    "mix25_filt_s0": {
+      "train_seconds": 588.749941500253,
+      "tokens": 5996544,
+      "tokens_per_s": 10185.213750883104,
+      "peak_rss_mb": 2096.2734375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix25_filt_s1": {
+      "train_seconds": 592.941503197886,
+      "tokens": 5996544,
+      "tokens_per_s": 10113.213474953423,
+      "peak_rss_mb": 2065.66796875,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix25_filt_s2": {
+      "train_seconds": 588.5426549980184,
+      "tokens": 5996544,
+      "tokens_per_s": 10188.801013955717,
+      "peak_rss_mb": 2064.70703125,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_cand1_s0": {
+      "train_seconds": 588.0056388016092,
+      "tokens": 5996544,
+      "tokens_per_s": 10198.106283846728,
+      "peak_rss_mb": 2204.4375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_filt_s0": {
+      "train_seconds": 587.015113400761,
+      "tokens": 5996544,
+      "tokens_per_s": 10215.31450060997,
+      "peak_rss_mb": 2070.6015625,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_filt_s1": {
+      "train_seconds": 591.2873374968767,
+      "tokens": 5996544,
+      "tokens_per_s": 10141.505863097693,
+      "peak_rss_mb": 2080.66015625,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_filt_s2": {
+      "train_seconds": 589.2495962990215,
+      "tokens": 5996544,
+      "tokens_per_s": 10176.57718845001,
+      "peak_rss_mb": 2245.45703125,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_filt_small_s0": {
+      "train_seconds": 1525.9516049998347,
+      "tokens": 5996544,
+      "tokens_per_s": 3929.707849418101,
+      "peak_rss_mb": 2742.59375,
+      "params": 13891584,
+      "best_step": 1464
+    },
+    "mix50_judge_s0": {
+      "train_seconds": 587.7829324974446,
+      "tokens": 5996544,
+      "tokens_per_s": 10201.970265657672,
+      "peak_rss_mb": 2243.828125,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_lowT_s0": {
+      "train_seconds": 588.6596497010905,
+      "tokens": 5996544,
+      "tokens_per_s": 10186.776014025972,
+      "peak_rss_mb": 2236.546875,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_plain_s0": {
+      "train_seconds": 593.3424748984398,
+      "tokens": 5996544,
+      "tokens_per_s": 10106.379121141472,
+      "peak_rss_mb": 2239.46484375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_raw_s0": {
+      "train_seconds": 589.739272599807,
+      "tokens": 5996544,
+      "tokens_per_s": 10168.127304062406,
+      "peak_rss_mb": 2241.06640625,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_raw_s1": {
+      "train_seconds": 589.683644099161,
+      "tokens": 5996544,
+      "tokens_per_s": 10169.086526319905,
+      "peak_rss_mb": 2239.58984375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix50_raw_s2": {
+      "train_seconds": 590.3556339987554,
+      "tokens": 5996544,
+      "tokens_per_s": 10157.5112604289,
+      "peak_rss_mb": 2243.3515625,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix75_filt_s0": {
+      "train_seconds": 594.6883869025623,
+      "tokens": 5996544,
+      "tokens_per_s": 10083.506138791496,
+      "peak_rss_mb": 2237.17578125,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix75_filt_s1": {
+      "train_seconds": 589.5524190004217,
+      "tokens": 5996544,
+      "tokens_per_s": 10171.35000508871,
+      "peak_rss_mb": 2056.59375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "mix75_filt_s2": {
+      "train_seconds": 589.4092532991199,
+      "tokens": 5996544,
+      "tokens_per_s": 10173.820594833465,
+      "peak_rss_mb": 2240.32421875,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "real_fresh_s0": {
+      "train_seconds": 592.9733738981886,
+      "tokens": 5996544,
+      "tokens_per_s": 10112.669917333566,
+      "peak_rss_mb": 2213.3359375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "real_fresh_s1": {
+      "train_seconds": 589.3690418971237,
+      "tokens": 5996544,
+      "tokens_per_s": 10174.514733074013,
+      "peak_rss_mb": 2250.79296875,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "real_fresh_s2": {
+      "train_seconds": 589.7152193004731,
+      "tokens": 5996544,
+      "tokens_per_s": 10168.542041552138,
+      "peak_rss_mb": 2252.671875,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "real_only_s0": {
+      "train_seconds": 591.0505647982936,
+      "tokens": 5996544,
+      "tokens_per_s": 10145.568513324111,
+      "peak_rss_mb": 2063.55859375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "real_only_s1": {
+      "train_seconds": 589.5845993005205,
+      "tokens": 5996544,
+      "tokens_per_s": 10170.79483947556,
+      "peak_rss_mb": 2060.62890625,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "real_only_s2": {
+      "train_seconds": 592.103218698292,
+      "tokens": 5996544,
+      "tokens_per_s": 10127.531502333475,
+      "peak_rss_mb": 2236.5546875,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "real_only_small_s0": {
+      "train_seconds": 1515.5664429002209,
+      "tokens": 5996544,
+      "tokens_per_s": 3956.635506210393,
+      "peak_rss_mb": 2735.9453125,
+      "params": 13891584,
+      "best_step": 1464
+    },
+    "syn_only_s0": {
+      "train_seconds": 590.2115655010566,
+      "tokens": 5996544,
+      "tokens_per_s": 10159.990672004657,
+      "peak_rss_mb": 2243.4609375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "syn_only_s1": {
+      "train_seconds": 588.7700116026681,
+      "tokens": 5996544,
+      "tokens_per_s": 10184.866555409368,
+      "peak_rss_mb": 2046.1484375,
+      "params": 5322240,
+      "best_step": 1464
+    },
+    "syn_only_s2": {
+      "train_seconds": 590.8206447014818,
+      "tokens": 5996544,
+      "tokens_per_s": 10149.516699826587,
+      "peak_rss_mb": 2237.80859375,
+      "params": 5322240,
+      "best_step": 1464
+    }
+  },
+  "lr_pilot_cpu_hours": 1.6998919563863375,
+  "value": {
+    "gain_mix50_filt_nats": 0.04252426323717584,
+    "gain_real_fresh_nats": 0.08161401676892588,
+    "gain_per_1M_teacher_tokens": 0.016151805382348,
+    "gain_per_teacher_cpu_hour": 0.04247779724674315,
+    "share_of_fresh_real_gain": 0.5210411755320777,
+    "note": "mix50_filt = 3M tokens of the 5k real seeds (3.1 epochs) + 3M filtered synthetic tokens; real_fresh = 6M tokens of other real stories (no repetition, ~31k stories)"
+  }
+}

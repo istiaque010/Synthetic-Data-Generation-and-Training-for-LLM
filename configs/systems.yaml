@@ -1,0 +1,22 @@
+# Systems in the results table and the pre-registered comparisons (configs/hypotheses.md). Written before training.
+systems: [real_only, real_fresh, syn_only, mix50_raw, mix25_filt, mix50_filt, mix75_filt,
+          mix50_lowT, mix50_plain, mix50_cand1, mix50_nodedup, mix50_judge, real_only_small, mix50_filt_small]
+pairs:
+  - [mix50_filt, real_only, main]        # H1, H5, H6
+  - [mix50_filt, mix50_raw, main]        # H2
+  - [mix25_filt, real_only, main]
+  - [mix75_filt, real_only, main]
+  - [syn_only, mix50_filt, main]         # H3a (against the best mixture, chosen after: see INSTRUCTIONS)
+  - [syn_only, mix25_filt, main]
+  - [syn_only, mix75_filt, main]
+  - [syn_only, real_only, main]
+  - [mix75_filt, mix50_filt, main]
+  - [mix25_filt, mix50_filt, main]
+  - [real_fresh, mix50_filt, main]       # H4
+  - [mix50_raw, real_only, main]
+  - [mix50_plain, mix50_filt, ablation]  # H3b
+  - [mix50_lowT, mix50_filt, ablation]   # H7
+  - [mix50_cand1, mix50_filt, ablation]  # H8
+  - [mix50_nodedup, mix50_filt, ablation]  # H9
+  - [mix50_judge, mix50_filt, ablation]  # H10
+  - [mix50_filt_small, real_only_small, size]  # H11 (compare with mix50_filt - real_only, seed 0)
